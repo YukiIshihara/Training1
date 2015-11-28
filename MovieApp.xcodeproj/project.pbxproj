@@ -14,6 +14,7 @@
 		D03C7E1C1C099CC00035A904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03C7E1A1C099CC00035A904 /* LaunchScreen.storyboard */; };
 		D03C7E271C099CC10035A904 /* MovieAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03C7E261C099CC10035A904 /* MovieAppTests.swift */; };
 		D03C7E321C099CC10035A904 /* MovieAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03C7E311C099CC10035A904 /* MovieAppUITests.swift */; };
+		D03C7E401C099EC90035A904 /* MovieTrain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03C7E3F1C099EC90035A904 /* MovieTrain.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D03C7E2D1C099CC10035A904 /* MovieAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03C7E311C099CC10035A904 /* MovieAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAppUITests.swift; sourceTree = "<group>"; };
 		D03C7E331C099CC10035A904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D03C7E3F1C099EC90035A904 /* MovieTrain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MovieTrain.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				D03C7E111C099CC00035A904 /* AppDelegate.swift */,
 				D03C7E131C099CC00035A904 /* ViewController.swift */,
 				D03C7E151C099CC00035A904 /* Main.storyboard */,
+				D03C7E3F1C099EC90035A904 /* MovieTrain.storyboard */,
 				D03C7E181C099CC00035A904 /* Assets.xcassets */,
 				D03C7E1A1C099CC00035A904 /* LaunchScreen.storyboard */,
 				D03C7E1D1C099CC00035A904 /* Info.plist */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					D03C7E0D1C099CC00035A904 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = XQJ7HXB4XA;
 					};
 					D03C7E211C099CC10035A904 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -231,6 +235,7 @@
 			files = (
 				D03C7E1C1C099CC00035A904 /* LaunchScreen.storyboard in Resources */,
 				D03C7E191C099CC00035A904 /* Assets.xcassets in Resources */,
+				D03C7E401C099EC90035A904 /* MovieTrain.storyboard in Resources */,
 				D03C7E171C099CC00035A904 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MovieApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.dreamarts.ishihara.MovieApp;
@@ -410,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MovieApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.dreamarts.ishihara.MovieApp;
