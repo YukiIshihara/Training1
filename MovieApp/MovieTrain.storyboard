@@ -24,7 +24,7 @@
                                     <segment title="Second"/>
                                 </segments>
                             </segmentedControl>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Xn-Wo-opQ">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Xn-Wo-opQ" customClass="BBBBB" customModule="MovieApp" customModuleProvider="target">
                                 <rect key="frame" x="269" y="241" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -37,7 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mIY-aH-2WY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="163" y="547"/>
+            <point key="canvasLocation" x="213" y="547"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UxR-EW-KQO">

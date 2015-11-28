@@ -8,11 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+//=============  =============//
 
+/// ビューコントローラ
+class ViewController: UIViewController {
+    
+    // 読み込み後に呼ばれるよ
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any addnal setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +25,37 @@ class ViewController: UIViewController {
     }
 
 
+}
+
+class ViewController2: UIViewController {
+    
+    override func viewDidLoad() {
+        //============= 親処理 =============//
+        super.viewDidLoad()
+        
+        //============= 処理準備 =============//
+        
+        
+        
+        //============= 処理 =============//
+        
+        
+        
+        //============= 後始末 =============//
+        
+        
+        // Do any addnal setup after loading the view, typically from a nib.
+    }
+    
+    
+    
+
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    
 }
 
